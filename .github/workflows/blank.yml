@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Unity Test
-        run: npm run jest
+        run: npm run test
