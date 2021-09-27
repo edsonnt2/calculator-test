@@ -26,8 +26,8 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Unity Test
+      - name: Install jest
         run: npm install jest
 
-      - name: Unity Test
+      - name: Run Unity Test
         run: npm run test
