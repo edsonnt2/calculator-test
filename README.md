@@ -1,15 +1,31 @@
 <h1 align="center">Calculator Test - Testes Unitários com Jest</h1>
 
-**Foram criados 9 cenários de testes para soma, subtração, multiplicação e divisão, aonde 4 estão corretos, 4 não estão esperando um resultado que não está correto e 1 está esperando um erro ("Unknown Error").**
+**Foram criados 9 cenários de testes para soma, subtração, multiplicação e divisão, aonde 4 estão corretos, 4 estão esperando um resultado que não está correto e 1 está esperando um erro ("Unknown Error").**
 
 Todos os testes funcionaram como o esperado.
 
+## ⚙ Métodos para Execução
+
+Clona o projeto e instale as dependências
+
+```bash
+git clone ".../path/to/project"
+cd calculator-test
+npm install
+```
+
+Rode os testes com o comando
+
+```bash
+npm run test
+```
+
 ## 🚀️ Tecnologias Utilizadas
 
-This project is being developed with the following technologies:
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Typescript](https://www.typescriptlang.org/)
 - [Node.js](https://nodejs.org/)
+- [Typescript](https://www.typescriptlang.org/)
 - [Jest](https://jestjs.io/)
 - [VS Code](https://code.visualstudio.com/)
 
